@@ -1,0 +1,122 @@
+2025-06-17 12:30:02,887 ERROR GitHub Personal Access Token (GITHUB_PAT) not set as environment variable.
+2025-06-17 12:30:44,979 ERROR GitHub Personal Access Token (GITHUB_PAT) not set as environment variable.
+2025-06-17 12:31:30,146 INFO Attempting to fetch Copilot metrics from 2025-05-21 to 2025-06-16...
+2025-06-17 12:31:30,147 INFO Fetching data from 2025-05-21 to 2025-06-16...
+2025-06-17 12:31:30,599 INFO Metrics written to metrics.json
+2025-06-17 12:31:30,602 INFO Last run date updated to 2025-06-16.
+2025-06-17 12:32:50,681 INFO Already up-to-date with Copilot metrics. Last run was today or yesterday.
+2025-06-17 12:33:54,516 INFO Attempting to fetch Copilot metrics from 2025-05-21 to 2025-06-16...
+2025-06-17 12:33:54,517 INFO Fetching data from 2025-05-21 to 2025-06-16...
+2025-06-17 12:33:54,921 INFO Metrics written to metrics.json
+2025-06-17 12:33:54,925 INFO Last run date updated to 2025-06-16.
+2025-06-17 12:36:36,792 INFO Already up-to-date with Copilot metrics. Last run was today or yesterday.
+2025-06-17 12:40:53,633 INFO Attempting to fetch Copilot metrics from 2025-05-21 to 2025-06-16...
+2025-06-17 12:40:53,634 INFO Fetching data from 2025-05-21 to 2025-06-16...
+2025-06-17 12:40:54,037 INFO Metrics written to metrics.json
+2025-06-17 12:40:54,043 INFO Last run date updated to 2025-06-16.
+2025-06-17 12:51:10,259 ERROR GitHub Organization Name (GITHUB_ORG_NAME) not set as environment variable.
+2025-06-17 12:54:08,238 ERROR GitHub Organization Name (GITHUB_ORG_NAME) not set as environment variable.
+2025-06-17 12:55:51,077 INFO Already up-to-date with Copilot metrics. Last run was today or yesterday.
+2025-06-17 13:19:31,824 INFO Already up-to-date with Copilot metrics. Last run was today or yesterday.
+2025-06-17 13:19:59,174 INFO Attempting to fetch Copilot metrics from 2025-05-21 to 2025-06-16...
+2025-06-17 13:19:59,175 INFO Fetching data from 2025-05-21 to 2025-06-16...
+2025-06-17 13:19:59,609 INFO Metrics written to metrics.json
+2025-06-17 13:19:59,614 INFO Last run date updated to 2025-06-16.
+2025-06-17 16:09:34,766 INFO Attempting to fetch Copilot metrics from 2025-05-21 to 2025-06-16...
+2025-06-17 16:09:34,767 INFO Fetching data from 2025-05-21 to 2025-06-16...
+2025-06-17 16:09:35,319 INFO Metrics written to metrics.json
+2025-06-17 16:09:35,319 INFO Uploading metrics to Domo...
+2025-06-17 16:09:35,320 INFO Starting upload_to_domo, append=False
+2025-06-17 16:09:35,321 INFO Requesting Domo token.
+2025-06-17 16:09:35,740 DEBUG DataFrame shape: (492, 20)
+2025-06-17 16:09:35,745 INFO Replacing data in Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-06-17 16:09:35,745 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=REPLACE
+2025-06-17 16:09:35,745 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-05-21,46,44,36,29,1,0,vscode,default,False,yaml,844,284,1370,406,0,0,0,0,
+2025-05-21,46,44,36,29,1,0,vscode,default,False,typescript,2536,712,3842,718,0,0,0,0,
+2025-05-21,46,44,36,29,1,0,vscode,default,False,terraform,41,
+2025-06-17 16:09:37,185 INFO Domo upload response status: 204
+2025-06-17 16:09:37,185 INFO Data upload to Domo successful.
+2025-06-17 16:09:37,186 INFO Metrics uploaded to Domo successfully.
+2025-06-17 16:09:37,189 INFO Last run date updated to 2025-06-16.
+2025-06-27 10:08:20,930 INFO Attempting to fetch Copilot metrics from 2025-06-17 to 2025-06-26...
+2025-06-27 10:08:20,930 INFO Fetching data from 2025-06-17 to 2025-06-26...
+2025-06-27 10:08:21,396 INFO Metrics written to metrics.json
+2025-06-27 10:08:21,396 INFO Uploading metrics to Domo...
+2025-06-27 10:08:21,396 INFO Starting upload_to_domo, append=False
+2025-06-27 10:08:21,397 INFO Requesting Domo token.
+2025-06-27 10:08:21,820 DEBUG DataFrame shape: (193, 20)
+2025-06-27 10:08:21,826 INFO Replacing data in Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-06-27 10:08:21,826 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=REPLACE
+2025-06-27 10:08:21,826 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-06-17,57,47,38,32,0,0,vscode,default,False,yaml,585,204,1332,570,0,0,0,0,
+2025-06-17,57,47,38,32,0,0,vscode,default,False,typescriptreact,346,79,619,49,0,0,0,0,
+2025-06-17,57,47,38,32,0,0,vscode,default,False,typescript,1
+2025-06-27 10:08:26,911 INFO Domo upload response status: 204
+2025-06-27 10:08:26,912 INFO Data upload to Domo successful.
+2025-06-27 10:08:26,913 INFO Metrics uploaded to Domo successfully.
+2025-06-27 10:08:26,916 INFO Last run date updated to 2025-06-26.
+2025-06-27 10:09:30,368 INFO Attempting to fetch Copilot metrics from 2025-05-31 to 2025-06-26...
+2025-06-27 10:09:30,368 INFO Fetching data from 2025-05-31 to 2025-06-26...
+2025-06-27 10:09:30,725 INFO Metrics written to metrics.json
+2025-06-27 10:09:30,725 INFO Uploading metrics to Domo...
+2025-06-27 10:09:30,725 INFO Starting upload_to_domo, append=False
+2025-06-27 10:09:30,727 INFO Requesting Domo token.
+2025-06-27 10:09:31,094 DEBUG DataFrame shape: (499, 20)
+2025-06-27 10:09:31,098 INFO Replacing data in Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-06-27 10:09:31,098 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=REPLACE
+2025-06-27 10:09:31,098 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-05-31,4,4,4,2,0,0,vscode,default,False,typescript,523,136,802,154,0,0,0,0,
+2025-05-31,4,4,4,2,0,0,vscode,default,False,http,12,1,12,1,0,0,0,0,
+2025-05-31,4,4,4,2,0,0,vscode,default,False,,0,0,0,0,12,0,2,0,
+2025-06-01,3,2,
+2025-06-27 10:09:33,645 INFO Domo upload response status: 204
+2025-06-27 10:09:33,645 INFO Data upload to Domo successful.
+2025-06-27 10:09:33,645 INFO Metrics uploaded to Domo successfully.
+2025-06-27 10:09:33,645 INFO Last run date updated to 2025-06-26.
+2025-06-27 14:10:23,588 INFO Already up-to-date with Copilot metrics. Last run was today or yesterday.
+2025-06-30 10:37:06,763 INFO Attempting to fetch Copilot metrics from 2025-06-03 to 2025-06-29...
+2025-06-30 10:37:06,764 INFO Fetching data from 2025-06-03 to 2025-06-29...
+2025-06-30 10:37:07,188 INFO Metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd/scripts/./../output/metrics.json
+2025-06-30 10:37:07,188 INFO Uploading metrics to Domo...
+2025-06-30 10:37:07,188 INFO Starting upload_to_domo, append=True
+2025-06-30 10:37:07,190 INFO Requesting Domo token.
+2025-06-30 10:37:07,600 DEBUG DataFrame shape: (503, 20)
+2025-06-30 10:37:07,607 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-06-30 10:37:07,607 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-06-30 10:37:07,607 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-06-03,55,48,40,27,0,0,vscode,default,False,typescript,2253,547,2974,446,0,0,0,0,
+2025-06-03,55,48,40,27,0,0,vscode,default,False,perl,536,71,770,69,0,0,0,0,
+2025-06-03,55,48,40,27,0,0,vscode,default,False,typescriptreact,
+2025-06-30 10:37:09,450 INFO Domo upload response status: 204
+2025-06-30 10:37:09,450 INFO Data upload to Domo successful.
+2025-06-30 10:37:09,451 INFO Metrics uploaded to Domo successfully.
+2025-06-30 10:37:09,451 INFO Last run date updated to 2025-06-29.
+2025-07-01 14:09:57,902 INFO Running in rerun mode...
+2025-07-01 14:09:57,903 INFO Using custom date range: 2025-06-20 to 2025-06-25
+2025-07-01 14:09:57,903 INFO Attempting to fetch Copilot metrics from 2025-06-20 to 2025-06-25...
+2025-07-01 14:09:57,903 INFO Fetching data from 2025-06-20 to 2025-06-25...
+2025-07-01 14:09:58,388 INFO Retrieved 6 raw metrics from API
+2025-07-01 14:09:58,389 INFO Processed 103 flattened records from 6 days of metrics
+2025-07-01 14:09:58,395 INFO Metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd/scripts/../output/metrics_rerun_20250701_140958.json - 103 records
+2025-07-01 14:09:58,395 INFO Skipping Domo upload as requested.
+2025-07-01 14:09:58,396 INFO Skipping last run date update for no-domo run.
+2025-07-01 14:15:10,377 INFO Attempting to fetch Copilot metrics from 2025-06-30 to 2025-06-30...
+2025-07-01 14:15:10,378 INFO Fetching data from 2025-06-30 to 2025-06-30...
+2025-07-01 14:15:10,832 INFO Retrieved 1 raw metrics from API
+2025-07-01 14:15:10,833 INFO Processed 25 flattened records from 1 days of metrics
+2025-07-01 14:15:10,835 INFO Metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd/scripts/../output/metrics.json - 25 records
+2025-07-01 14:15:10,835 INFO Uploading metrics to Domo...
+2025-07-01 14:15:10,835 INFO Starting upload_to_domo, append=True
+2025-07-01 14:15:10,835 INFO Requesting Domo token.
+2025-07-01 14:15:11,340 DEBUG DataFrame shape: (25, 20)
+2025-07-01 14:15:11,343 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-07-01 14:15:11,343 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-07-01 14:15:11,343 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-06-30,62,56,44,41,0,0,vscode,default,False,yaml,467,192,769,304,0,0,0,0,
+2025-06-30,62,56,44,41,0,0,vscode,default,False,typescript,2849,774,4466,1116,0,0,0,0,
+2025-06-30,62,56,44,41,0,0,vscode,default,False,groovy,48,7,2
+2025-07-01 14:15:13,912 INFO Domo upload response status: 204
+2025-07-01 14:15:13,912 INFO Data upload to Domo successful.
+2025-07-01 14:15:13,912 INFO Metrics uploaded to Domo successfully.
+2025-07-01 14:15:13,916 INFO Last run date updated to 2025-06-30.
