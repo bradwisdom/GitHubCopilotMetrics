@@ -149,3 +149,99 @@
 2025-07-01 22:32:38,238 INFO Teams processed: 7
 2025-07-01 22:32:38,238 INFO Flattened records: 114
 2025-07-01 22:32:38,238 INFO ============================================================
+2025-07-02 10:57:03,456 INFO ============================================================
+2025-07-02 10:57:03,457 INFO Starting GitHub User Data Collection and Domo Upload
+2025-07-02 10:57:03,457 INFO ============================================================
+2025-07-02 10:57:03,457 INFO Fetching Copilot users for enterprise: Apiture-EMU
+2025-07-02 10:57:04,831 INFO Found 114 Copilot users
+2025-07-02 10:57:04,832 INFO Fetching teams for enterprise: Apiture-EMU
+2025-07-02 10:57:05,222 INFO Found 7 teams
+2025-07-02 10:57:05,554 INFO Team 'Platform' (ID: 80547): 0 members
+2025-07-02 10:57:05,863 INFO Team 'Architecture' (ID: 80554): 0 members
+2025-07-02 10:57:06,194 INFO Team 'QA' (ID: 80555): 0 members
+2025-07-02 10:57:06,496 INFO Team 'Development' (ID: 80556): 0 members
+2025-07-02 10:57:06,813 INFO Team 'Development-Contractors' (ID: 80850): 0 members
+2025-07-02 10:57:07,119 INFO Team 'QA-contractors' (ID: 80851): 0 members
+2025-07-02 10:57:07,433 INFO Team 'ProServ' (ID: 80852): 0 members
+2025-07-02 10:57:07,434 INFO Flattened 114 users into 114 records for Domo
+2025-07-02 10:57:07,436 INFO Original user data saved to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/scripts/./../output/github_org_users.json
+2025-07-02 10:57:07,439 INFO Flattened user data saved to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/scripts/./../output/github_users_flattened.json
+2025-07-02 10:57:07,439 INFO Requesting Domo token...
+2025-07-02 10:57:07,794 INFO Successfully obtained Domo token
+2025-07-02 10:57:10,774 INFO Dataset schema has 18 columns
+2025-07-02 10:57:10,786 INFO Data validated and formatted for schema compliance
+2025-07-02 10:57:10,789 INFO Requesting Domo token...
+2025-07-02 10:57:11,120 INFO Successfully obtained Domo token
+2025-07-02 10:57:11,126 INFO Uploading 114 records to Domo dataset 604ca61f-eff4-4f17-82f8-9d8268f1287a (REPLACE mode)
+2025-07-02 10:57:13,815 INFO Domo upload response status: 204
+2025-07-02 10:57:13,816 INFO Data upload to Domo successful
+2025-07-02 10:57:13,818 INFO ============================================================
+2025-07-02 10:57:13,818 INFO SUCCESS: GitHub user data uploaded to Domo
+2025-07-02 10:57:13,818 INFO Users processed: 114
+2025-07-02 10:57:13,818 INFO Teams processed: 7
+2025-07-02 10:57:13,818 INFO Flattened records: 114
+2025-07-02 10:57:13,818 INFO ============================================================
+2025-07-02 11:21:40,953 INFO ============================================================
+2025-07-02 11:21:40,954 INFO Starting GitHub User Data Collection and Domo Upload
+2025-07-02 11:21:40,954 INFO ============================================================
+2025-07-02 11:21:40,954 INFO Fetching Copilot users for enterprise: Apiture-EMU
+2025-07-02 11:21:42,444 INFO Found 114 Copilot users
+2025-07-02 11:21:42,445 INFO Fetching teams for enterprise: Apiture-EMU
+2025-07-02 11:21:42,778 INFO Found 7 teams
+2025-07-02 11:21:43,099 INFO Team 'Platform' (ID: 80547): 0 members
+2025-07-02 11:21:43,383 INFO Team 'Architecture' (ID: 80554): 0 members
+2025-07-02 11:21:43,716 INFO Team 'QA' (ID: 80555): 0 members
+2025-07-02 11:21:44,080 INFO Team 'Development' (ID: 80556): 0 members
+2025-07-02 11:21:44,375 INFO Team 'Development-Contractors' (ID: 80850): 0 members
+2025-07-02 11:21:44,703 INFO Team 'QA-contractors' (ID: 80851): 0 members
+2025-07-02 11:21:45,006 INFO Team 'ProServ' (ID: 80852): 0 members
+2025-07-02 11:21:45,010 INFO Flattened 114 users into 114 records for Domo
+2025-07-02 11:21:45,017 INFO Original user data saved to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/scripts/./../output/github_org_users.json
+2025-07-02 11:21:45,020 INFO Flattened user data saved to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/scripts/./../output/github_users_flattened.json
+2025-07-02 11:21:45,020 INFO Requesting Domo token...
+2025-07-02 11:21:45,356 INFO Successfully obtained Domo token
+2025-07-02 11:21:45,993 INFO Dataset schema has 18 columns
+2025-07-02 11:21:46,014 INFO Data validated and formatted for schema compliance
+2025-07-02 11:21:46,023 INFO Requesting Domo token...
+2025-07-02 11:21:46,451 INFO Successfully obtained Domo token
+2025-07-02 11:21:46,463 INFO Uploading 114 records to Domo dataset 604ca61f-eff4-4f17-82f8-9d8268f1287a (REPLACE mode)
+2025-07-02 11:21:54,450 INFO Domo upload response status: 204
+2025-07-02 11:21:54,450 INFO Data upload to Domo successful
+2025-07-02 11:21:54,451 INFO ============================================================
+2025-07-02 11:21:54,451 INFO SUCCESS: GitHub user data uploaded to Domo
+2025-07-02 11:21:54,451 INFO Users processed: 114
+2025-07-02 11:21:54,451 INFO Teams processed: 7
+2025-07-02 11:21:54,451 INFO Flattened records: 114
+2025-07-02 11:21:54,451 INFO ============================================================
+2025-07-02 11:32:20,278 INFO ============================================================
+2025-07-02 11:32:20,279 INFO Starting GitHub User Data Collection and Domo Upload
+2025-07-02 11:32:20,279 INFO ============================================================
+2025-07-02 11:32:20,279 INFO Fetching Copilot users for enterprise: Apiture-EMU
+2025-07-02 11:32:21,914 INFO Found 114 Copilot users
+2025-07-02 11:32:21,915 INFO Fetching teams for enterprise: Apiture-EMU
+2025-07-02 11:32:22,239 INFO Found 7 teams
+2025-07-02 11:32:22,539 INFO Team 'Platform' (ID: 80547): 0 members
+2025-07-02 11:32:22,862 INFO Team 'Architecture' (ID: 80554): 0 members
+2025-07-02 11:32:23,207 INFO Team 'QA' (ID: 80555): 0 members
+2025-07-02 11:32:23,652 INFO Team 'Development' (ID: 80556): 0 members
+2025-07-02 11:32:23,970 INFO Team 'Development-Contractors' (ID: 80850): 0 members
+2025-07-02 11:32:24,252 INFO Team 'QA-contractors' (ID: 80851): 0 members
+2025-07-02 11:32:24,574 INFO Team 'ProServ' (ID: 80852): 0 members
+2025-07-02 11:32:24,574 INFO Flattened 114 users into 114 records for Domo
+2025-07-02 11:32:24,580 INFO Original user data saved to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/scripts/./../output/github_org_users.json
+2025-07-02 11:32:24,585 INFO Flattened user data saved to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/scripts/./../output/github_users_flattened.json
+2025-07-02 11:32:24,585 INFO Requesting Domo token...
+2025-07-02 11:32:24,926 INFO Successfully obtained Domo token
+2025-07-02 11:32:25,585 INFO Dataset schema has 18 columns
+2025-07-02 11:32:25,607 INFO Data validated and formatted for schema compliance
+2025-07-02 11:32:25,609 INFO Requesting Domo token...
+2025-07-02 11:32:25,931 INFO Successfully obtained Domo token
+2025-07-02 11:32:25,935 INFO Uploading 114 records to Domo dataset 604ca61f-eff4-4f17-82f8-9d8268f1287a (REPLACE mode)
+2025-07-02 11:32:27,901 INFO Domo upload response status: 204
+2025-07-02 11:32:27,901 INFO Data upload to Domo successful
+2025-07-02 11:32:27,901 INFO ============================================================
+2025-07-02 11:32:27,901 INFO SUCCESS: GitHub user data uploaded to Domo
+2025-07-02 11:32:27,901 INFO Users processed: 114
+2025-07-02 11:32:27,901 INFO Teams processed: 7
+2025-07-02 11:32:27,901 INFO Flattened records: 114
+2025-07-02 11:32:27,901 INFO ============================================================
