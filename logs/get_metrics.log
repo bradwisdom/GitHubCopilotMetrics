@@ -154,3 +154,12 @@
 2025-07-01 21:53:30,215 INFO Metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/scripts/./../output/metrics_rerun_20250701_215330.json - 442 records
 2025-07-01 21:53:30,215 INFO Skipping Domo upload as requested.
 2025-07-01 21:53:30,215 INFO Skipping last run date update for no-domo run.
+2025-07-01 22:30:33,945 INFO Running in rerun mode...
+2025-07-01 22:30:33,946 INFO Using custom date range: 2025-06-01 to 2025-06-15
+2025-07-01 22:30:33,946 INFO Attempting to fetch Copilot metrics from 2025-06-01 to 2025-06-15...
+2025-07-01 22:30:33,946 INFO Fetching data from 2025-06-01 to 2025-06-15...
+2025-07-01 22:30:34,504 INFO Retrieved 15 raw metrics from API
+2025-07-01 22:30:34,505 INFO Processed 277 flattened records from 15 days of metrics
+2025-07-01 22:30:34,508 INFO Metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics_rerun_20250701_223034.json - 277 records
+2025-07-01 22:30:34,508 INFO Skipping Domo upload as requested.
+2025-07-01 22:30:34,508 INFO Skipping last run date update for no-domo run.

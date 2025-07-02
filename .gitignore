@@ -1,2 +1,6 @@
 config/.env
-config/.env
+logs/get_metrics.log
+output/github_org_users.json
+output/github_users_flattened.json
+output/metrics_rerun_20250701_223034.json
+logs/load_github_user_domo.log

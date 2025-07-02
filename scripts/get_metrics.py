@@ -61,21 +61,29 @@ API Limitations:
     - Rate limits apply to API requests
 """
 
+# Suppress all warnings BEFORE any imports
+import warnings
+warnings.filterwarnings("ignore")
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore", category=UserWarning)
+
 # Check Python version and imports
 import sys
 if sys.version_info < (3, 8):
     print("Error: Python 3.8 or higher is required")
     sys.exit(1)
 
+# Additional warning suppression before urllib3 import
+import os
+os.environ['PYTHONWARNINGS'] = 'ignore'
+
 try:
     import requests
     import json
-    import os
     from datetime import datetime, timedelta
     from dotenv import load_dotenv
     import logging
     import argparse
-    import warnings
     import urllib3
     from urllib3.exceptions import NotOpenSSLWarning, InsecureRequestWarning
 except ImportError as e:
@@ -84,16 +92,10 @@ except ImportError as e:
     print("pip install requests pandas python-dotenv")
     sys.exit(1)
 
-# Comprehensive warning suppression for urllib3
-warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
-warnings.filterwarnings("ignore", category=InsecureRequestWarning)
-warnings.filterwarnings("ignore", message=".*urllib3.*")
-warnings.filterwarnings("ignore", message=".*OpenSSL.*")
-
-# Additional urllib3 warning suppression
+# Additional urllib3 warning suppression after import
+urllib3.disable_warnings()
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 try:
-    urllib3.disable_warnings()
-    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     urllib3.disable_warnings(urllib3.exceptions.NotOpenSSLWarning)
 except:
     pass
@@ -541,3 +543,6 @@ def main():
     else:
         print("Failed to retrieve any new Copilot metrics.")
         logging.error("Failed to retrieve any new Copilot metrics.")
+
+if __name__ == "__main__":
+    main()
