@@ -61,14 +61,42 @@ API Limitations:
     - Rate limits apply to API requests
 """
 
-import requests
-import json
-import os
-from datetime import datetime, timedelta
-from dotenv import load_dotenv
-import logging
+# Check Python version and imports
 import sys
-import argparse
+if sys.version_info < (3, 8):
+    print("Error: Python 3.8 or higher is required")
+    sys.exit(1)
+
+try:
+    import requests
+    import json
+    import os
+    from datetime import datetime, timedelta
+    from dotenv import load_dotenv
+    import logging
+    import argparse
+    import warnings
+    import urllib3
+    from urllib3.exceptions import NotOpenSSLWarning, InsecureRequestWarning
+except ImportError as e:
+    print(f"Error importing required modules: {e}")
+    print("Please install required packages:")
+    print("pip install requests pandas python-dotenv")
+    sys.exit(1)
+
+# Comprehensive warning suppression for urllib3
+warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
+warnings.filterwarnings("ignore", category=InsecureRequestWarning)
+warnings.filterwarnings("ignore", message=".*urllib3.*")
+warnings.filterwarnings("ignore", message=".*OpenSSL.*")
+
+# Additional urllib3 warning suppression
+try:
+    urllib3.disable_warnings()
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    urllib3.disable_warnings(urllib3.exceptions.NotOpenSSLWarning)
+except:
+    pass
 
 # Setup logging
 LOGS_DIR = os.path.join(os.path.dirname(__file__), '../logs')
@@ -335,10 +363,75 @@ def parse_arguments():
                         help='Override start date (YYYY-MM-DD format). Only used with --rerun')
     parser.add_argument('--end-date', type=str,
                         help='Override end date (YYYY-MM-DD format). Only used with --rerun')
+    parser.add_argument('--test', action='store_true',
+                        help='Test mode - validate configuration without making API calls')
     return parser.parse_args()
+
+def test_configuration():
+    """Test mode to validate configuration without API calls."""
+    print("🧪 Running in TEST mode - validating configuration...")
+    
+    # Check environment variables
+    github_pat = os.getenv("GITHUB_PAT")
+    github_org_name = os.getenv("GITHUB_ORG_NAME")
+    
+    print(f"✓ Python version: {sys.version}")
+    print(f"✓ Current directory: {os.getcwd()}")
+    print(f"✓ Script location: {os.path.dirname(__file__)}")
+    
+    # Check GitHub configuration
+    if github_pat:
+        masked_pat = github_pat[:8] + "..." + github_pat[-4:] if len(github_pat) > 12 else "***"
+        print(f"✓ GitHub PAT found: {masked_pat}")
+    else:
+        print("❌ GitHub PAT not found in environment")
+    
+    if github_org_name:
+        print(f"✓ GitHub org/enterprise: {github_org_name}")
+    else:
+        print("❌ GitHub org/enterprise name not found in environment")
+    
+    # Check directories
+    logs_dir = os.path.join(os.path.dirname(__file__), '../logs')
+    output_dir = os.path.join(os.path.dirname(__file__), '../output')
+    config_dir = os.path.join(os.path.dirname(__file__), '../config')
+    
+    print(f"✓ Logs directory: {logs_dir} ({'exists' if os.path.exists(logs_dir) else 'will be created'})")
+    print(f"✓ Output directory: {output_dir} ({'exists' if os.path.exists(output_dir) else 'will be created'})")
+    print(f"✓ Config directory: {config_dir} ({'exists' if os.path.exists(config_dir) else 'missing'})")
+    
+    # Check .env file
+    env_file = os.path.join(config_dir, '.env')
+    print(f"✓ .env file: {env_file} ({'exists' if os.path.exists(env_file) else 'missing'})")
+    
+    # Test imports
+    try:
+        from domo_integration import upload_to_domo
+        print("✓ domo_integration module imported successfully")
+    except ImportError as e:
+        print(f"❌ domo_integration import failed: {e}")
+    
+    # Check last run file
+    if os.path.exists(LAST_RUN_FILE):
+        last_run_date = get_last_run_date()
+        print(f"✓ Last run date: {last_run_date}")
+    else:
+        print("ℹ️  No previous run found (first run)")
+    
+    print("\n🎯 Configuration test complete!")
+    return github_pat and github_org_name
 
 def main():
     args = parse_arguments()
+    
+    # Handle test mode
+    if args.test:
+        success = test_configuration()
+        if success:
+            print("✅ Configuration looks good! Ready to run with real data.")
+        else:
+            print("❌ Configuration issues found. Please check your .env file.")
+        return
     
     github_pat = os.getenv("GITHUB_PAT")
     github_org_name = os.getenv("GITHUB_ORG_NAME")
@@ -448,6 +541,3 @@ def main():
     else:
         print("Failed to retrieve any new Copilot metrics.")
         logging.error("Failed to retrieve any new Copilot metrics.")
-
-if __name__ == "__main__":
-    main()
