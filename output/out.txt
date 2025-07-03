@@ -1,0 +1,1713 @@
+--- github_org_users.json	2025-07-02 11:32:24
++++ github_users_flattened.json	2025-07-02 11:32:24
+@@ -13,10 +13,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T07:46:52-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot-chat/0.28.2",
+-    "assigning_team_id": 80547,
+-    "assigning_team_name": "Platform",
+-    "assigning_team_slug": "platform",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
++    "team_id": 80547,
++    "team_name": "Platform",
++    "team_slug": "platform",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
+     "has_team_assignment": true
+   },
+   {
+@@ -33,10 +33,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-28T01:00:59-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.2",
+-    "assigning_team_id": 80547,
+-    "assigning_team_name": "Platform",
+-    "assigning_team_slug": "platform",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
++    "team_id": 80547,
++    "team_name": "Platform",
++    "team_slug": "platform",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
+     "has_team_assignment": true
+   },
+   {
+@@ -53,10 +53,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:14:58-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80547,
+-    "assigning_team_name": "Platform",
+-    "assigning_team_slug": "platform",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
++    "team_id": 80547,
++    "team_name": "Platform",
++    "team_slug": "platform",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
+     "has_team_assignment": true
+   },
+   {
+@@ -73,10 +73,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:12:41-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.5",
+-    "assigning_team_id": 80547,
+-    "assigning_team_name": "Platform",
+-    "assigning_team_slug": "platform",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
++    "team_id": 80547,
++    "team_name": "Platform",
++    "team_slug": "platform",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
+     "has_team_assignment": true
+   },
+   {
+@@ -93,10 +93,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T13:35:22-05:00",
+     "last_activity_editor": "vscode/1.100.3/copilot-chat/0.27.3",
+-    "assigning_team_id": 80547,
+-    "assigning_team_name": "Platform",
+-    "assigning_team_slug": "platform",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
++    "team_id": 80547,
++    "team_name": "Platform",
++    "team_slug": "platform",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
+     "has_team_assignment": true
+   },
+   {
+@@ -113,10 +113,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:52:08-05:00",
+     "last_activity_editor": "vscode/1.100.0/copilot-chat/0.27.3",
+-    "assigning_team_id": 80547,
+-    "assigning_team_name": "Platform",
+-    "assigning_team_slug": "platform",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
++    "team_id": 80547,
++    "team_name": "Platform",
++    "team_slug": "platform",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
+     "has_team_assignment": true
+   },
+   {
+@@ -133,10 +133,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:10:45-05:00",
+     "last_activity_editor": "vscode/1.100.1/copilot/1.322.0",
+-    "assigning_team_id": 80547,
+-    "assigning_team_name": "Platform",
+-    "assigning_team_slug": "platform",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
++    "team_id": 80547,
++    "team_name": "Platform",
++    "team_slug": "platform",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
+     "has_team_assignment": true
+   },
+   {
+@@ -153,10 +153,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-17T13:34:57-05:00",
+     "last_activity_editor": "vscode/1.100.3/copilot-chat/0.27.3",
+-    "assigning_team_id": 80547,
+-    "assigning_team_name": "Platform",
+-    "assigning_team_slug": "platform",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
++    "team_id": 80547,
++    "team_name": "Platform",
++    "team_slug": "platform",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
+     "has_team_assignment": true
+   },
+   {
+@@ -173,10 +173,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T20:12:24-05:00",
+     "last_activity_editor": "vscode/1.101.0/copilot-chat/0.28.3",
+-    "assigning_team_id": 80547,
+-    "assigning_team_name": "Platform",
+-    "assigning_team_slug": "platform",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
++    "team_id": 80547,
++    "team_name": "Platform",
++    "team_slug": "platform",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
+     "has_team_assignment": true
+   },
+   {
+@@ -193,10 +193,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-30T16:09:49-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.3",
+-    "assigning_team_id": 80547,
+-    "assigning_team_name": "Platform",
+-    "assigning_team_slug": "platform",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
++    "team_id": 80547,
++    "team_name": "Platform",
++    "team_slug": "platform",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/platform",
+     "has_team_assignment": true
+   },
+   {
+@@ -213,10 +213,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -233,10 +233,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -253,10 +253,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-30T11:56:45-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot-chat/0.28.3",
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -273,10 +273,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:14:59-05:00",
+     "last_activity_editor": "vscode/1.101.0/copilot/1.338.0",
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -293,10 +293,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T04:48:32-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot-chat/0.28.4",
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -313,10 +313,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:14:47-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.5",
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -333,10 +333,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T13:12:27-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -353,10 +353,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -373,10 +373,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:34:07-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -393,10 +393,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -413,10 +413,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T13:16:50-05:00",
+     "last_activity_editor": "vscode/1.101.0/copilot-chat/0.28.0",
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -433,10 +433,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T22:51:27-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -453,10 +453,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T15:53:01-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80554,
+-    "assigning_team_name": "Architecture",
+-    "assigning_team_slug": "architecture",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
++    "team_id": 80554,
++    "team_name": "Architecture",
++    "team_slug": "architecture",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/architecture",
+     "has_team_assignment": true
+   },
+   {
+@@ -473,10 +473,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -493,10 +493,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T13:51:40-05:00",
+     "last_activity_editor": "vscode/1.100.2/",
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -513,10 +513,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -533,10 +533,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T09:45:22-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -553,10 +553,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-27T17:02:08-05:00",
+     "last_activity_editor": "vscode/1.100.3/",
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -573,10 +573,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T09:53:18-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.5",
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -593,10 +593,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -613,10 +613,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:14:40-05:00",
+     "last_activity_editor": "vscode/1.86.2/copilot/1.250.0",
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -633,10 +633,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -653,10 +653,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -673,10 +673,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T14:21:23-05:00",
+     "last_activity_editor": "vscode/1.92.2/",
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -693,10 +693,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -713,10 +713,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -733,10 +733,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:42:45-05:00",
+     "last_activity_editor": "vscode/1.98.1/",
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -753,10 +753,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T14:02:49-05:00",
+     "last_activity_editor": "vscode/1.90.0/copilot/1.250.0",
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -773,10 +773,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:13:03-05:00",
+     "last_activity_editor": "vscode/1.100.3/copilot-chat/0.27.3",
+-    "assigning_team_id": 80555,
+-    "assigning_team_name": "QA",
+-    "assigning_team_slug": "qa",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
++    "team_id": 80555,
++    "team_name": "QA",
++    "team_slug": "qa",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/qa",
+     "has_team_assignment": true
+   },
+   {
+@@ -793,10 +793,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T09:49:07-05:00",
+     "last_activity_editor": "vscode/1.101.0/copilot-chat/0.28.1",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -813,10 +813,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T08:29:10-05:00",
+     "last_activity_editor": "vscode/1.100.3/copilot/1.333.0",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -833,10 +833,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -853,10 +853,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T09:46:17-05:00",
+     "last_activity_editor": "vscode/1.99.3/",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -873,10 +873,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-05-29T14:23:26-05:00",
+     "last_activity_editor": "copilot-chat-platform",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -893,10 +893,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:10:45-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -913,10 +913,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-27T13:09:01-05:00",
+     "last_activity_editor": "vscode/1.100.3/",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -933,10 +933,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -953,10 +953,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:43:55-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -973,10 +973,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T08:25:58-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -993,10 +993,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:14:18-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.5",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1013,10 +1013,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T22:36:13-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1033,10 +1033,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-05-19T13:13:40-05:00",
+     "last_activity_editor": "vscode/1.100.2/",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1053,10 +1053,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T16:22:23-05:00",
+     "last_activity_editor": "vscode/1.89.1/copilot-chat/0.15.2",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1073,10 +1073,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:33:58-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1093,10 +1093,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-26T13:49:49-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot/1.336.0",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1113,10 +1113,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:05:09-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1133,10 +1133,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1153,10 +1153,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1173,10 +1173,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:14:55-05:00",
+     "last_activity_editor": "vscode/1.101.1/",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1193,10 +1193,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:03:13-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.5",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1213,10 +1213,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-04T08:14:38-05:00",
+     "last_activity_editor": "vscode/1.99.3/copilot/1.326.0",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1233,10 +1233,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-30T08:21:17-05:00",
+     "last_activity_editor": "vscode/1.100.3/copilot-chat/0.27.3",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1253,10 +1253,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1273,10 +1273,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:46:08-05:00",
+     "last_activity_editor": "vscode/1.100.3/copilot/1.338.0",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1293,10 +1293,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1313,10 +1313,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-05-23T09:14:41-05:00",
+     "last_activity_editor": "vscode/1.100.2/copilot/1.323.0",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1333,10 +1333,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T15:45:46-05:00",
+     "last_activity_editor": "vscode/1.100.3/",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1353,10 +1353,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1373,10 +1373,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:58:54-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.5",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1393,10 +1393,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T06:28:30-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot-chat/0.28.4",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1413,10 +1413,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T08:03:26-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1433,10 +1433,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T09:43:22-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.5",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1453,10 +1453,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:49:50-05:00",
+     "last_activity_editor": "vscode/1.99.3/",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1473,10 +1473,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:08:10-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot-chat/0.28.2",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1493,10 +1493,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T09:41:36-05:00",
+     "last_activity_editor": "vscode/1.98.1/",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1513,10 +1513,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1533,10 +1533,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-27T11:22:20-05:00",
+     "last_activity_editor": "vscode/1.101.0/copilot-chat/0.28.3",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1553,10 +1553,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-27T15:38:47-05:00",
+     "last_activity_editor": "vscode/1.100.2/copilot-chat/0.27.3",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1573,10 +1573,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T08:02:04-05:00",
+     "last_activity_editor": "vscode/1.100.3/",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1593,10 +1593,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1613,10 +1613,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T14:30:39-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot-chat/0.28.3",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1633,10 +1633,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-27T11:29:25-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot-chat/0.28.3",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1653,10 +1653,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:48:41-05:00",
+     "last_activity_editor": "vscode/1.100.2/",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1673,10 +1673,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1693,10 +1693,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-30T10:27:45-05:00",
+     "last_activity_editor": "vscode/1.100.3/copilot/1.338.0",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1713,10 +1713,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:26:18-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1733,10 +1733,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T14:10:58-05:00",
+     "last_activity_editor": "vscode/1.100.2/copilot/1.338.0",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1753,10 +1753,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:13:20-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot-chat/0.28.3",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1773,10 +1773,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:58:23-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot-chat/0.28.5",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1793,10 +1793,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-27T14:11:34-05:00",
+     "last_activity_editor": "vscode/1.100.3/",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1813,10 +1813,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T10:26:42-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot-chat/0.28.3",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1833,10 +1833,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T08:53:51-05:00",
+     "last_activity_editor": "vscode/1.101.0/copilot-chat/0.28.4",
+-    "assigning_team_id": 80556,
+-    "assigning_team_name": "Development",
+-    "assigning_team_slug": "development",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
++    "team_id": 80556,
++    "team_name": "Development",
++    "team_slug": "development",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development",
+     "has_team_assignment": true
+   },
+   {
+@@ -1853,10 +1853,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T05:51:42-05:00",
+     "last_activity_editor": "vscode/1.100.2/copilot-chat/0.27.3",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -1873,10 +1873,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T09:25:24-05:00",
+     "last_activity_editor": "vscode/1.100.3/",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -1893,10 +1893,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:08:51-05:00",
+     "last_activity_editor": "vscode/1.100.3/copilot/1.338.0",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -1913,10 +1913,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-25T17:18:05-05:00",
+     "last_activity_editor": "vscode/1.101.0/copilot-chat/0.28.2",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -1933,10 +1933,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-11T11:14:53-05:00",
+     "last_activity_editor": "vscode/1.100.3/copilot-chat/0.27.3",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -1953,10 +1953,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:06:14-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot/1.338.0",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -1973,10 +1973,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-05-23T13:28:30-05:00",
+     "last_activity_editor": "vscode/1.100.2/copilot-chat/0.27.2",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -1993,10 +1993,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T11:13:26-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.4",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2013,10 +2013,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-30T15:34:54-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.3",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2033,10 +2033,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2053,10 +2053,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T09:43:17-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.3",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2073,10 +2073,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-05-23T13:14:53-05:00",
+     "last_activity_editor": "vscode/1.97.2/copilot/1.277.0",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2093,10 +2093,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T05:32:12-05:00",
+     "last_activity_editor": "vscode/1.96.4/",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2113,10 +2113,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T05:49:02-05:00",
+     "last_activity_editor": "vscode/1.100.2/",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2133,10 +2133,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-27T14:45:47-05:00",
+     "last_activity_editor": "vscode/1.101.1/copilot/1.336.0",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2153,10 +2153,10 @@
+     "plan_type": "business",
+     "last_activity_at": null,
+     "last_activity_editor": null,
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2173,10 +2173,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T05:18:07-05:00",
+     "last_activity_editor": "vscode/1.101.2/copilot-chat/0.28.3",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2193,10 +2193,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-06-26T07:45:17-05:00",
+     "last_activity_editor": "vscode/1.100.2/copilot-chat/0.27.3",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2213,10 +2213,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T00:20:13-05:00",
+     "last_activity_editor": "vscode/1.100.2/copilot/1.336.0",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2233,10 +2233,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-01T06:17:03-05:00",
+     "last_activity_editor": "vscode/1.98.2/",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2253,10 +2253,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T02:57:55-05:00",
+     "last_activity_editor": "vscode/1.84.2/",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   },
+   {
+@@ -2273,10 +2273,10 @@
+     "plan_type": "business",
+     "last_activity_at": "2025-07-02T09:57:12-05:00",
+     "last_activity_editor": "vscode/1.97.2/",
+-    "assigning_team_id": 80850,
+-    "assigning_team_name": "Development-Contractors",
+-    "assigning_team_slug": "development-contractors",
+-    "assigning_team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
++    "team_id": 80850,
++    "team_name": "Development-Contractors",
++    "team_slug": "development-contractors",
++    "team_html_url": "https://github.com/enterprises/Apiture-EMU/teams/development-contractors",
+     "has_team_assignment": true
+   }
+ ]
+\ No newline at end of file

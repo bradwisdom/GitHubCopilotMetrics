@@ -321,7 +321,7 @@ def flatten_metrics(metrics):
     return records
 
 def write_metrics_to_json(metrics_data, output_file, upload_to_domo_flag=True):
-    """Writes the fetched metrics to a JSON file (flattened)."""
+    """Writes the fetched metrics to JSON files (original and flattened formats)."""
     if not metrics_data:
         print("No new metrics to write.")
         logging.info("No new metrics to write.")
@@ -331,18 +331,34 @@ def write_metrics_to_json(metrics_data, output_file, upload_to_domo_flag=True):
     output_dir = os.path.join(os.path.dirname(__file__), '..', 'output')
     os.makedirs(output_dir, exist_ok=True)
     
-    # Flatten before writing
+    # Save original format (raw API response)
+    original_output_path = os.path.join(output_dir, output_file.replace('.json', '_original.json'))
+    with open(original_output_path, 'w', encoding='utf-8') as f:
+        json.dump(metrics_data, f, indent=2)
+    print(f"Original metrics written to {original_output_path}")
+    logging.info(f"Original metrics written to {original_output_path} - {len(metrics_data)} daily records")
+    
+    # Flatten for analytics and Domo upload
     flattened = flatten_metrics(metrics_data)
-    output_path = os.path.join(output_dir, output_file)
-    with open(output_path, 'w', encoding='utf-8') as f:
+    
+    # Save flattened format
+    flattened_output_path = os.path.join(output_dir, output_file.replace('.json', '_flattened.json'))
+    with open(flattened_output_path, 'w', encoding='utf-8') as f:
         json.dump(flattened, f, indent=2)
-    print(f"Metrics written to {output_path}")
-    logging.info(f"Metrics written to {output_path} - {len(flattened)} records")
+    print(f"Flattened metrics written to {flattened_output_path}")
+    logging.info(f"Flattened metrics written to {flattened_output_path} - {len(flattened)} records")
+    
+    # Also save flattened as the main output file for backwards compatibility
+    main_output_path = os.path.join(output_dir, output_file)
+    with open(main_output_path, 'w', encoding='utf-8') as f:
+        json.dump(flattened, f, indent=2)
+    print(f"Main metrics file (flattened) written to {main_output_path}")
+    logging.info(f"Main metrics file written to {main_output_path} - {len(flattened)} records")
 
     # --- Upload to Domo after writing JSON (only if flag is True) ---
     if upload_to_domo_flag:
-        print("Uploading metrics to Domo...")
-        logging.info("Uploading metrics to Domo...")
+        print("Uploading flattened metrics to Domo...")
+        logging.info("Uploading flattened metrics to Domo...")
         success = upload_to_domo(flattened, append=True)
         if success:
             print("Metrics uploaded to Domo successfully.")
@@ -519,8 +535,16 @@ def main():
         if args.no_domo:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             output_file = f"metrics_rerun_{timestamp}.json"
+            print(f"No-domo mode: Will create timestamped files:")
+            print(f"  - Original: metrics_rerun_{timestamp}_original.json")
+            print(f"  - Flattened: metrics_rerun_{timestamp}_flattened.json")
+            print(f"  - Main: metrics_rerun_{timestamp}.json")
         else:
             output_file = "metrics.json"
+            print(f"Normal mode: Will create/update files:")
+            print(f"  - Original: metrics_original.json")
+            print(f"  - Flattened: metrics_flattened.json")
+            print(f"  - Main: metrics.json")
         
         metrics_with_date.sort(key=lambda x: x.get("date") or x.get("day"))
         write_metrics_to_json(metrics_with_date, output_file, upload_to_domo_flag)

@@ -1,3 +1,6 @@
+# Import warning suppression first
+import suppress_warnings
+
 import os
 import requests
 import json
@@ -111,7 +114,7 @@ def get_all_users_enterprise(enterprise, token):
         
         if len(batch) < per_page:
             break
-        page += 1
+        page += 1  # ✅ PAGINATION: Increment page number
     
     logger.info(f"Found {len(users)} Copilot users")
     return users
@@ -141,7 +144,7 @@ def get_enterprise_teams(enterprise, token):
         teams.extend(batch)
         if len(batch) < per_page:
             break
-        page += 1
+        page += 1  # ✅ PAGINATION: Increment page number
     
     logger.info(f"Found {len(teams)} teams")
     return teams
@@ -172,7 +175,7 @@ def get_enterprise_team_members(enterprise, team_id, token):
                 members.append(membership['user'])
         if len(batch) < per_page:
             break
-        page += 1
+        page += 1  # ✅ PAGINATION: Increment page number
     
     return members
 
@@ -449,12 +452,16 @@ def main():
             logger.info("=" * 60)
             return True
         else:
-            logger.error("FAILED: Domo upload failed")
+            logger.error("Data upload to Domo failed")
             return False
-            
+    
     except Exception as e:
-        logger.exception(f"Error in main execution: {e}")
+        logger.exception(f"Exception in main processing: {e}")
         return False
+
+if __name__ == "__main__":
+    main()
+    logger.error("FAILED: Domo upload failed")
 
 if __name__ == "__main__":
     success = main()
