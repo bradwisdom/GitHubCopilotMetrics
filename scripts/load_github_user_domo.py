@@ -373,6 +373,41 @@ def upload_to_domo_dataset(dataset_id, data):
         logger.exception(f"Exception during Domo upload: {e}")
         return False
 
+def get_teams_and_members(github_client, enterprise_name):
+    """
+    Get teams in the enterprise and their members.
+    
+    NOTE: Instead of using the teams API to get members (which may require higher permissions),
+    we'll count users by their assigned teams from the users data.
+    """
+    logger.info(f"Fetching teams for enterprise: {enterprise_name}")
+    teams = {}
+    team_counts = {}
+    
+    try:
+        # Get teams
+        all_teams = []
+        for team in github_client.enterprise(enterprise_name).teams():
+            all_teams.append({
+                'id': team.id,
+                'name': team.name,
+                'slug': team.slug,
+                'html_url': team.html_url,
+            })
+        
+        logger.info(f"Found {len(all_teams)} teams")
+        
+        # Store teams data by ID for easy lookup
+        for team in all_teams:
+            teams[team['id']] = team
+            team_counts[team['id']] = 0
+        
+        return teams, all_teams
+        
+    except Exception as e:
+        logger.error(f"Error fetching teams: {e}")
+        return {}, []
+
 def main():
     """Main function to pull GitHub data and upload to Domo."""
     if not GITHUB_PAT or not GITHUB_ORG_NAME:
@@ -458,10 +493,6 @@ def main():
     except Exception as e:
         logger.exception(f"Exception in main processing: {e}")
         return False
-
-if __name__ == "__main__":
-    main()
-    logger.error("FAILED: Domo upload failed")
 
 if __name__ == "__main__":
     success = main()
