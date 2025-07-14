@@ -1,6 +1,6 @@
 [
   {
-    "date": "2025-07-03",
+    "date": "2025-07-11",
     "copilot_ide_chat": {
       "editors": [
         {
@@ -8,23 +8,31 @@
           "models": [
             {
               "name": "default",
-              "total_chats": 625,
+              "total_chats": 380,
               "is_custom_model": false,
-              "total_engaged_users": 30,
-              "total_chat_copy_events": 32,
-              "total_chat_insertion_events": 0
+              "total_engaged_users": 24,
+              "total_chat_copy_events": 31,
+              "total_chat_insertion_events": 1
             }
           ],
-          "total_engaged_users": 30
+          "total_engaged_users": 24
         }
       ],
-      "total_engaged_users": 30
+      "total_engaged_users": 24
     },
     "total_active_users": 45,
     "copilot_dotcom_chat": {
-      "total_engaged_users": 0
+      "models": [
+        {
+          "name": "default",
+          "total_chats": 14,
+          "is_custom_model": false,
+          "total_engaged_users": 1
+        }
+      ],
+      "total_engaged_users": 1
     },
-    "total_engaged_users": 42,
+    "total_engaged_users": 41,
     "copilot_dotcom_pull_requests": {
       "total_engaged_users": 0
     },
@@ -38,199 +46,191 @@
               "languages": [
                 {
                   "name": "typescript",
-                  "total_engaged_users": 23,
-                  "total_code_acceptances": 1141,
-                  "total_code_suggestions": 3783,
-                  "total_code_lines_accepted": 1650,
-                  "total_code_lines_suggested": 6602
+                  "total_engaged_users": 17,
+                  "total_code_acceptances": 800,
+                  "total_code_suggestions": 2794,
+                  "total_code_lines_accepted": 935,
+                  "total_code_lines_suggested": 4387
                 },
                 {
                   "name": "html",
-                  "total_engaged_users": 9,
-                  "total_code_acceptances": 50,
-                  "total_code_suggestions": 374,
-                  "total_code_lines_accepted": 80,
-                  "total_code_lines_suggested": 822
+                  "total_engaged_users": 4,
+                  "total_code_acceptances": 20,
+                  "total_code_suggestions": 173,
+                  "total_code_lines_accepted": 18,
+                  "total_code_lines_suggested": 420
                 },
                 {
-                  "name": "perl",
-                  "total_engaged_users": 6,
-                  "total_code_acceptances": 40,
-                  "total_code_suggestions": 281,
-                  "total_code_lines_accepted": 55,
-                  "total_code_lines_suggested": 439
+                  "name": "cpp",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 22,
+                  "total_code_suggestions": 92,
+                  "total_code_lines_accepted": 24,
+                  "total_code_lines_suggested": 141
                 },
                 {
                   "name": "yaml",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 11,
-                  "total_code_suggestions": 40,
-                  "total_code_lines_accepted": 19,
-                  "total_code_lines_suggested": 66
+                  "total_engaged_users": 2,
+                  "total_code_acceptances": 21,
+                  "total_code_suggestions": 52,
+                  "total_code_lines_accepted": 36,
+                  "total_code_lines_suggested": 86
                 },
                 {
-                  "name": "java",
+                  "name": "sql",
                   "total_engaged_users": 1,
-                  "total_code_acceptances": 4,
-                  "total_code_suggestions": 17,
-                  "total_code_lines_accepted": 11,
-                  "total_code_lines_suggested": 72
+                  "total_code_acceptances": 3,
+                  "total_code_suggestions": 31,
+                  "total_code_lines_accepted": 2,
+                  "total_code_lines_suggested": 38
+                },
+                {
+                  "name": "perl",
+                  "total_engaged_users": 8,
+                  "total_code_acceptances": 91,
+                  "total_code_suggestions": 405,
+                  "total_code_lines_accepted": 124,
+                  "total_code_lines_suggested": 711
                 },
                 {
                   "name": "git-commit",
                   "total_engaged_users": 0,
                   "total_code_acceptances": 0,
-                  "total_code_suggestions": 40,
+                  "total_code_suggestions": 34,
                   "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 41
-                },
-                {
-                  "name": "python",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 1,
-                  "total_code_suggestions": 3,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 3
-                },
-                {
-                  "name": "terraform",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 7,
-                  "total_code_suggestions": 32,
-                  "total_code_lines_accepted": 9,
-                  "total_code_lines_suggested": 48
-                },
-                {
-                  "name": "sql",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 89,
-                  "total_code_suggestions": 154,
-                  "total_code_lines_accepted": 218,
-                  "total_code_lines_suggested": 349
+                  "total_code_lines_suggested": 35
                 },
                 {
                   "name": "scss",
-                  "total_engaged_users": 2,
-                  "total_code_acceptances": 9,
-                  "total_code_suggestions": 70,
-                  "total_code_lines_accepted": 2,
-                  "total_code_lines_suggested": 216
-                },
-                {
-                  "name": "json",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 2,
-                  "total_code_suggestions": 12,
-                  "total_code_lines_accepted": 3,
-                  "total_code_lines_suggested": 32
-                },
-                {
-                  "name": "markdown",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 1,
-                  "total_code_suggestions": 17,
-                  "total_code_lines_accepted": 1,
-                  "total_code_lines_suggested": 18
-                },
-                {
-                  "name": "dotenv",
-                  "total_engaged_users": 0,
-                  "total_code_acceptances": 0,
-                  "total_code_suggestions": 4,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 4
-                },
-                {
-                  "name": "http",
-                  "total_engaged_users": 2,
-                  "total_code_acceptances": 8,
-                  "total_code_suggestions": 48,
-                  "total_code_lines_accepted": 8,
-                  "total_code_lines_suggested": 66
+                  "total_engaged_users": 3,
+                  "total_code_acceptances": 21,
+                  "total_code_suggestions": 135,
+                  "total_code_lines_accepted": 14,
+                  "total_code_lines_suggested": 263
                 },
                 {
                   "name": "typescriptreact",
                   "total_engaged_users": 1,
-                  "total_code_acceptances": 1,
-                  "total_code_suggestions": 18,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 56
-                },
-                {
-                  "name": "fsharp",
-                  "total_engaged_users": 0,
-                  "total_code_acceptances": 0,
-                  "total_code_suggestions": 3,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 11
+                  "total_code_acceptances": 7,
+                  "total_code_suggestions": 23,
+                  "total_code_lines_accepted": 5,
+                  "total_code_lines_suggested": 29
                 },
                 {
                   "name": "plaintext",
-                  "total_engaged_users": 0,
-                  "total_code_acceptances": 0,
-                  "total_code_suggestions": 6,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 23
-                },
-                {
-                  "name": "xml",
-                  "total_engaged_users": 0,
-                  "total_code_acceptances": 0,
-                  "total_code_suggestions": 1,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 2
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 2,
+                  "total_code_suggestions": 34,
+                  "total_code_lines_accepted": 2,
+                  "total_code_lines_suggested": 95
                 },
                 {
                   "name": "css",
                   "total_engaged_users": 0,
                   "total_code_acceptances": 0,
+                  "total_code_suggestions": 6,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 6
+                },
+                {
+                  "name": "json",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 14,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 66
+                },
+                {
+                  "name": "javascript",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 22,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 29
+                },
+                {
+                  "name": "terraform",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 2,
+                  "total_code_suggestions": 3,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 4
+                },
+                {
+                  "name": "groovy",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 2,
+                  "total_code_suggestions": 10,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 13
+                },
+                {
+                  "name": "dotenv",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
+                },
+                {
+                  "name": "snowflake-sql",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 4,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 4
+                },
+                {
+                  "name": "http",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
                   "total_code_suggestions": 2,
                   "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 2
+                  "total_code_lines_suggested": 11
+                },
+                {
+                  "name": "ini",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
                 }
               ],
               "is_custom_model": false,
-              "total_engaged_users": 35
+              "total_engaged_users": 33
             }
           ],
-          "total_engaged_users": 35
+          "total_engaged_users": 33
         }
       ],
       "languages": [
         {
           "name": "typescript",
-          "total_engaged_users": 23
+          "total_engaged_users": 17
         },
         {
-          "name": "http",
-          "total_engaged_users": 2
-        },
-        {
-          "name": "perl",
-          "total_engaged_users": 6
+          "name": "cpp",
+          "total_engaged_users": 1
         },
         {
           "name": "typescriptreact",
           "total_engaged_users": 1
         },
         {
-          "name": "git-commit",
-          "total_engaged_users": 0
+          "name": "perl",
+          "total_engaged_users": 8
         },
         {
           "name": "html",
-          "total_engaged_users": 9
+          "total_engaged_users": 4
         },
         {
           "name": "scss",
-          "total_engaged_users": 2
+          "total_engaged_users": 3
         },
         {
-          "name": "java",
-          "total_engaged_users": 1
-        },
-        {
-          "name": "sql",
+          "name": "javascript",
           "total_engaged_users": 1
         },
         {
@@ -238,11 +238,19 @@
           "total_engaged_users": 1
         },
         {
-          "name": "markdown",
+          "name": "sql",
           "total_engaged_users": 1
         },
         {
           "name": "yaml",
+          "total_engaged_users": 2
+        },
+        {
+          "name": "git-commit",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "groovy",
           "total_engaged_users": 1
         },
         {
@@ -250,35 +258,35 @@
           "total_engaged_users": 1
         },
         {
-          "name": "python",
+          "name": "http",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "plaintext",
           "total_engaged_users": 1
+        },
+        {
+          "name": "snowflake-sql",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "css",
+          "total_engaged_users": 0
         },
         {
           "name": "dotenv",
           "total_engaged_users": 0
         },
         {
-          "name": "css",
-          "total_engaged_users": 0
-        },
-        {
-          "name": "plaintext",
-          "total_engaged_users": 0
-        },
-        {
-          "name": "xml",
-          "total_engaged_users": 0
-        },
-        {
-          "name": "fsharp",
+          "name": "ini",
           "total_engaged_users": 0
         }
       ],
-      "total_engaged_users": 35
+      "total_engaged_users": 33
     }
   },
   {
-    "date": "2025-07-04",
+    "date": "2025-07-12",
     "copilot_ide_chat": {
       "editors": [
         {
@@ -286,129 +294,7 @@
           "models": [
             {
               "name": "default",
-              "total_chats": 115,
-              "is_custom_model": false,
-              "total_engaged_users": 6,
-              "total_chat_copy_events": 0,
-              "total_chat_insertion_events": 0
-            }
-          ],
-          "total_engaged_users": 6
-        }
-      ],
-      "total_engaged_users": 6
-    },
-    "total_active_users": 13,
-    "copilot_dotcom_chat": {
-      "total_engaged_users": 0
-    },
-    "total_engaged_users": 10,
-    "copilot_dotcom_pull_requests": {
-      "total_engaged_users": 0
-    },
-    "copilot_ide_code_completions": {
-      "editors": [
-        {
-          "name": "vscode",
-          "models": [
-            {
-              "name": "default",
-              "languages": [
-                {
-                  "name": "yaml",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 397,
-                  "total_code_suggestions": 840,
-                  "total_code_lines_accepted": 1024,
-                  "total_code_lines_suggested": 1957
-                },
-                {
-                  "name": "typescript",
-                  "total_engaged_users": 4,
-                  "total_code_acceptances": 316,
-                  "total_code_suggestions": 915,
-                  "total_code_lines_accepted": 421,
-                  "total_code_lines_suggested": 1748
-                },
-                {
-                  "name": "perl",
-                  "total_engaged_users": 3,
-                  "total_code_acceptances": 14,
-                  "total_code_suggestions": 136,
-                  "total_code_lines_accepted": 26,
-                  "total_code_lines_suggested": 266
-                },
-                {
-                  "name": "html",
-                  "total_engaged_users": 2,
-                  "total_code_acceptances": 2,
-                  "total_code_suggestions": 33,
-                  "total_code_lines_accepted": 3,
-                  "total_code_lines_suggested": 39
-                },
-                {
-                  "name": "css",
-                  "total_engaged_users": 2,
-                  "total_code_acceptances": 4,
-                  "total_code_suggestions": 12,
-                  "total_code_lines_accepted": 9,
-                  "total_code_lines_suggested": 32
-                },
-                {
-                  "name": "http",
-                  "total_engaged_users": 0,
-                  "total_code_acceptances": 0,
-                  "total_code_suggestions": 3,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 7
-                }
-              ],
-              "is_custom_model": false,
-              "total_engaged_users": 8
-            }
-          ],
-          "total_engaged_users": 8
-        }
-      ],
-      "languages": [
-        {
-          "name": "typescript",
-          "total_engaged_users": 4
-        },
-        {
-          "name": "yaml",
-          "total_engaged_users": 1
-        },
-        {
-          "name": "perl",
-          "total_engaged_users": 3
-        },
-        {
-          "name": "html",
-          "total_engaged_users": 2
-        },
-        {
-          "name": "css",
-          "total_engaged_users": 2
-        },
-        {
-          "name": "http",
-          "total_engaged_users": 0
-        }
-      ],
-      "total_engaged_users": 8
-    }
-  },
-  {
-    "date": "2025-07-05",
-    "copilot_ide_chat": {
-      "editors": [
-        {
-          "name": "vscode",
-          "models": [
-            {
-              "name": "default",
-              "total_chats": 12,
+              "total_chats": 29,
               "is_custom_model": false,
               "total_engaged_users": 3,
               "total_chat_copy_events": 0,
@@ -424,7 +310,7 @@
     "copilot_dotcom_chat": {
       "total_engaged_users": 0
     },
-    "total_engaged_users": 4,
+    "total_engaged_users": 5,
     "copilot_dotcom_pull_requests": {
       "total_engaged_users": 0
     },
@@ -437,44 +323,60 @@
               "name": "default",
               "languages": [
                 {
-                  "name": "python",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 7,
-                  "total_code_suggestions": 21,
-                  "total_code_lines_accepted": 11,
-                  "total_code_lines_suggested": 28
+                  "name": "typescript",
+                  "total_engaged_users": 3,
+                  "total_code_acceptances": 473,
+                  "total_code_suggestions": 1488,
+                  "total_code_lines_accepted": 588,
+                  "total_code_lines_suggested": 2283
                 },
                 {
                   "name": "html",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 5,
-                  "total_code_suggestions": 10,
-                  "total_code_lines_accepted": 2,
-                  "total_code_lines_suggested": 18
-                },
-                {
-                  "name": "typescript",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 5,
-                  "total_code_suggestions": 37,
-                  "total_code_lines_accepted": 5,
-                  "total_code_lines_suggested": 58
-                },
-                {
-                  "name": "perl",
                   "total_engaged_users": 0,
                   "total_code_acceptances": 0,
-                  "total_code_suggestions": 3,
+                  "total_code_suggestions": 42,
                   "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 3
+                  "total_code_lines_suggested": 69
+                },
+                {
+                  "name": "plaintext",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 12,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 30
+                },
+                {
+                  "name": "yaml",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 8,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 17
+                },
+                {
+                  "name": "xml",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 2,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 13
                 },
                 {
                   "name": "json",
                   "total_engaged_users": 0,
                   "total_code_acceptances": 0,
-                  "total_code_suggestions": 7,
+                  "total_code_suggestions": 2,
                   "total_code_lines_accepted": 0,
                   "total_code_lines_suggested": 7
+                },
+                {
+                  "name": "javascript",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
                 }
               ],
               "is_custom_model": false,
@@ -486,23 +388,31 @@
       ],
       "languages": [
         {
-          "name": "python",
-          "total_engaged_users": 1
-        },
-        {
           "name": "typescript",
-          "total_engaged_users": 1
+          "total_engaged_users": 3
         },
         {
           "name": "html",
-          "total_engaged_users": 1
+          "total_engaged_users": 0
         },
         {
           "name": "json",
           "total_engaged_users": 0
         },
         {
-          "name": "perl",
+          "name": "yaml",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "plaintext",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "xml",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "javascript",
           "total_engaged_users": 0
         }
       ],
@@ -510,7 +420,7 @@
     }
   },
   {
-    "date": "2025-07-06",
+    "date": "2025-07-13",
     "copilot_ide_chat": {
       "editors": [
         {
@@ -518,23 +428,23 @@
           "models": [
             {
               "name": "default",
-              "total_chats": 126,
+              "total_chats": 14,
               "is_custom_model": false,
-              "total_engaged_users": 4,
-              "total_chat_copy_events": 16,
+              "total_engaged_users": 2,
+              "total_chat_copy_events": 1,
               "total_chat_insertion_events": 0
             }
           ],
-          "total_engaged_users": 4
+          "total_engaged_users": 2
         }
       ],
-      "total_engaged_users": 4
+      "total_engaged_users": 2
     },
-    "total_active_users": 5,
+    "total_active_users": 6,
     "copilot_dotcom_chat": {
       "total_engaged_users": 0
     },
-    "total_engaged_users": 4,
+    "total_engaged_users": 6,
     "copilot_dotcom_pull_requests": {
       "total_engaged_users": 0
     },
@@ -547,88 +457,76 @@
               "name": "default",
               "languages": [
                 {
-                  "name": "python",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 11,
-                  "total_code_suggestions": 36,
-                  "total_code_lines_accepted": 13,
-                  "total_code_lines_suggested": 47
-                },
-                {
                   "name": "typescript",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 9,
-                  "total_code_suggestions": 74,
-                  "total_code_lines_accepted": 2,
-                  "total_code_lines_suggested": 121
-                },
-                {
-                  "name": "perl",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 5,
-                  "total_code_suggestions": 11,
-                  "total_code_lines_accepted": 5,
-                  "total_code_lines_suggested": 11
+                  "total_engaged_users": 5,
+                  "total_code_acceptances": 247,
+                  "total_code_suggestions": 815,
+                  "total_code_lines_accepted": 252,
+                  "total_code_lines_suggested": 1392
                 },
                 {
                   "name": "html",
-                  "total_engaged_users": 0,
-                  "total_code_acceptances": 0,
-                  "total_code_suggestions": 17,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 25
-                },
-                {
-                  "name": "git-commit",
-                  "total_engaged_users": 0,
-                  "total_code_acceptances": 0,
-                  "total_code_suggestions": 3,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 3
-                },
-                {
-                  "name": "plaintext",
                   "total_engaged_users": 1,
                   "total_code_acceptances": 1,
-                  "total_code_suggestions": 16,
+                  "total_code_suggestions": 105,
                   "total_code_lines_accepted": 1,
-                  "total_code_lines_suggested": 18
+                  "total_code_lines_suggested": 186
+                },
+                {
+                  "name": "jsonc",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 4,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 5
+                },
+                {
+                  "name": "makefile",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 2,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 2
+                },
+                {
+                  "name": "scss",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
                 }
               ],
               "is_custom_model": false,
-              "total_engaged_users": 4
+              "total_engaged_users": 6
             }
           ],
-          "total_engaged_users": 4
+          "total_engaged_users": 6
         }
       ],
       "languages": [
         {
           "name": "typescript",
-          "total_engaged_users": 1
-        },
-        {
-          "name": "python",
-          "total_engaged_users": 1
-        },
-        {
-          "name": "perl",
-          "total_engaged_users": 1
+          "total_engaged_users": 5
         },
         {
           "name": "html",
-          "total_engaged_users": 0
-        },
-        {
-          "name": "plaintext",
           "total_engaged_users": 1
         },
         {
-          "name": "git-commit",
+          "name": "jsonc",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "makefile",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "scss",
           "total_engaged_users": 0
         }
       ],
-      "total_engaged_users": 4
+      "total_engaged_users": 6
     }
   }
 ]
