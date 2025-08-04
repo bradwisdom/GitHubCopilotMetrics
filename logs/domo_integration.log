@@ -170,3 +170,102 @@
 2025-07-11,45,41,33,24,1,0,vscode,default,False,cpp,92,22,141,24
 2025-07-14 14:25:28,525 INFO Domo upload response status: 204
 2025-07-14 14:25:28,525 INFO Data upload to Domo successful.
+2025-07-15 11:40:12,532 INFO Starting upload_to_domo, append=True
+2025-07-15 11:40:12,533 INFO Requesting Domo token.
+2025-07-15 11:40:12,926 DEBUG DataFrame shape: (22, 20)
+2025-07-15 11:40:12,929 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-07-15 11:40:12,929 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-07-15 11:40:12,929 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-07-14,61,46,38,33,0,0,vscode,default,False,yaml,37,5,73,6,0,0,0,0,
+2025-07-14,61,46,38,33,0,0,vscode,default,False,typescript,3075,911,4799,905,0,0,0,0,
+2025-07-14,61,46,38,33,0,0,vscode,default,False,perl,601,104,1124,15
+2025-07-15 11:40:14,511 INFO Domo upload response status: 204
+2025-07-15 11:40:14,512 INFO Data upload to Domo successful.
+2025-07-17 15:57:25,612 INFO Starting upload_to_domo, append=True
+2025-07-17 15:57:25,613 INFO Requesting Domo token.
+2025-07-17 15:57:26,104 DEBUG DataFrame shape: (46, 20)
+2025-07-17 15:57:26,108 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-07-17 15:57:26,108 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-07-17 15:57:26,108 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-07-15,61,54,46,39,0,0,vscode,default,False,typescript,3052,950,4974,1069,0,0,0,0,
+2025-07-15,61,54,46,39,0,0,vscode,default,False,html,322,40,708,55,0,0,0,0,
+2025-07-15,61,54,46,39,0,0,vscode,default,False,typescriptreact
+2025-07-17 15:57:27,763 INFO Domo upload response status: 204
+2025-07-17 15:57:27,764 INFO Data upload to Domo successful.
+2025-07-18 09:16:45,916 INFO Starting upload_to_domo, append=True
+2025-07-18 09:16:45,916 INFO Requesting Domo token.
+2025-07-18 09:16:46,261 DEBUG DataFrame shape: (24, 20)
+2025-07-18 09:16:46,264 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-07-18 09:16:46,264 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-07-18 09:16:46,264 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-07-17,57,50,43,37,0,0,vscode,default,False,typescript,3925,1155,6032,1234,0,0,0,0,
+2025-07-17,57,50,43,37,0,0,vscode,default,False,python,42,10,303,35,0,0,0,0,
+2025-07-17,57,50,43,37,0,0,vscode,default,False,jsonc,77,37,1
+2025-07-18 09:16:48,580 INFO Domo upload response status: 204
+2025-07-18 09:16:48,580 INFO Data upload to Domo successful.
+2025-07-21 12:48:49,410 INFO Starting upload_to_domo, append=True
+2025-07-21 12:48:49,411 INFO Requesting Domo token.
+2025-07-21 12:48:49,853 DEBUG DataFrame shape: (38, 20)
+2025-07-21 12:48:49,856 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-07-21 12:48:49,856 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-07-21 12:48:49,856 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-07-18,52,43,38,33,0,0,vscode,default,False,jsonc,73,15,108,15,0,0,0,0,
+2025-07-18,52,43,38,33,0,0,vscode,default,False,perl,555,95,906,127,0,0,0,0,
+2025-07-18,52,43,38,33,0,0,vscode,default,False,typescript,1463,438,2135,
+2025-07-21 12:48:51,437 INFO Domo upload response status: 204
+2025-07-21 12:48:51,438 INFO Data upload to Domo successful.
+2025-07-22 15:15:07,645 INFO Starting upload_to_domo, append=True
+2025-07-22 15:15:07,646 INFO Requesting Domo token.
+2025-07-22 15:15:08,046 DEBUG DataFrame shape: (22, 20)
+2025-07-22 15:15:08,051 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-07-22 15:15:08,051 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-07-22 15:15:08,051 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-07-21,60,53,45,36,0,0,vscode,default,False,typescript,2122,673,3328,880,0,0,0,0,
+2025-07-21,60,53,45,36,0,0,vscode,default,False,perl,707,130,1347,194,0,0,0,0,
+2025-07-21,60,53,45,36,0,0,vscode,default,False,yaml,33,24,52
+2025-07-22 15:15:09,691 INFO Domo upload response status: 204
+2025-07-22 15:15:09,691 INFO Data upload to Domo successful.
+2025-07-25 10:37:08,068 INFO Starting upload_to_domo, append=True
+2025-07-25 10:37:08,069 INFO Requesting Domo token.
+2025-07-25 10:37:08,396 DEBUG DataFrame shape: (76, 20)
+2025-07-25 10:37:08,406 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-07-25 10:37:08,406 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-07-25 10:37:08,407 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-07-22,61,46,34,35,0,0,vscode,default,False,typescript,3266,1353,7266,3141,0,0,0,0,
+2025-07-22,61,46,34,35,0,0,vscode,default,False,fsharp,20,0,20,0,0,0,0,0,
+2025-07-22,61,46,34,35,0,0,vscode,default,False,python,35,3,73,1
+2025-07-25 10:37:10,073 INFO Domo upload response status: 204
+2025-07-25 10:37:10,073 INFO Data upload to Domo successful.
+2025-07-29 08:43:07,182 INFO Starting upload_to_domo, append=True
+2025-07-29 08:43:07,183 INFO Requesting Domo token.
+2025-07-29 08:43:07,516 DEBUG DataFrame shape: (53, 20)
+2025-07-29 08:43:07,518 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-07-29 08:43:07,518 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-07-29 08:43:07,519 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-07-25,54,49,38,33,0,0,vscode,default,False,typescript,2434,629,3443,585,0,0,0,0,
+2025-07-25,54,49,38,33,0,0,vscode,default,False,json,161,25,252,34,0,0,0,0,
+2025-07-25,54,49,38,33,0,0,vscode,default,False,yaml,131,45,179,
+2025-07-29 08:43:08,973 INFO Domo upload response status: 204
+2025-07-29 08:43:08,974 INFO Data upload to Domo successful.
+2025-07-30 07:31:39,737 INFO Starting upload_to_domo, append=True
+2025-07-30 07:31:39,738 INFO Requesting Domo token.
+2025-07-30 07:31:40,159 DEBUG DataFrame shape: (21, 20)
+2025-07-30 07:31:40,164 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-07-30 07:31:40,164 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-07-30 07:31:40,164 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-07-29,62,59,45,41,0,0,vscode,default,False,json,93,9,236,18,0,0,0,0,
+2025-07-29,62,59,45,41,0,0,vscode,default,False,typescript,2707,769,3731,743,0,0,0,0,
+2025-07-29,62,59,45,41,0,0,vscode,default,False,typescriptreact,12
+2025-07-30 07:31:41,579 INFO Domo upload response status: 204
+2025-07-30 07:31:41,579 INFO Data upload to Domo successful.
+2025-08-04 08:21:00,853 INFO Starting upload_to_domo, append=True
+2025-08-04 08:21:00,855 INFO Requesting Domo token.
+2025-08-04 08:21:01,200 DEBUG DataFrame shape: (80, 20)
+2025-08-04 08:21:01,205 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-08-04 08:21:01,205 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-08-04 08:21:01,206 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-07-30,59,52,42,37,0,0,vscode,default,False,typescript,2620,731,3720,560,0,0,0,0,
+2025-07-30,59,52,42,37,0,0,vscode,default,False,perl,562,101,771,67,0,0,0,0,
+2025-07-30,59,52,42,37,0,0,vscode,default,False,git-commit,46,1
+2025-08-04 08:21:02,864 INFO Domo upload response status: 204
+2025-08-04 08:21:02,865 INFO Data upload to Domo successful.
