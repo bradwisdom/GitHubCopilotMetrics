@@ -635,3 +635,88 @@
 2025-08-18 11:21:40,811 INFO Data upload to Domo successful.
 2025-08-18 11:21:40,812 INFO Metrics uploaded to Domo successfully.
 2025-08-18 11:21:40,814 INFO Last run date updated to 2025-08-17.
+2025-08-20 10:32:31,997 INFO Attempting to fetch Copilot metrics from 2025-08-18 to 2025-08-19...
+2025-08-20 10:32:31,999 INFO Fetching data from 2025-08-18 to 2025-08-19...
+2025-08-20 10:32:32,498 INFO Retrieved 2 raw metrics from API
+2025-08-20 10:32:32,502 INFO Original metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics_original.json - 2 daily records
+2025-08-20 10:32:32,502 INFO Processed 40 flattened records from 2 days of metrics
+2025-08-20 10:32:32,508 INFO Flattened metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics_flattened.json - 40 records
+2025-08-20 10:32:32,510 INFO Main metrics file written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics.json - 40 records
+2025-08-20 10:32:32,510 INFO Uploading flattened metrics to Domo...
+2025-08-20 10:32:32,510 INFO Starting upload_to_domo, append=True
+2025-08-20 10:32:32,511 INFO Requesting Domo token.
+2025-08-20 10:32:32,891 DEBUG DataFrame shape: (40, 20)
+2025-08-20 10:32:32,896 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-08-20 10:32:32,897 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-08-20 10:32:32,897 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-08-18,61,46,28,37,0,0,vscode,default,False,typescript,2002,935,7291,3273,0,0,0,0,
+2025-08-18,61,46,28,37,0,0,vscode,default,False,yaml,37,6,90,1,0,0,0,0,
+2025-08-18,61,46,28,37,0,0,vscode,default,False,git-commit,30,6,30,
+2025-08-20 10:32:34,474 INFO Domo upload response status: 204
+2025-08-20 10:32:34,474 INFO Data upload to Domo successful.
+2025-08-20 10:32:34,474 INFO Metrics uploaded to Domo successfully.
+2025-08-20 10:32:34,476 INFO Last run date updated to 2025-08-19.
+2025-08-21 08:36:24,069 INFO Attempting to fetch Copilot metrics from 2025-08-20 to 2025-08-20...
+2025-08-21 08:36:24,072 INFO Fetching data from 2025-08-20 to 2025-08-20...
+2025-08-21 08:36:24,577 INFO Retrieved 1 raw metrics from API
+2025-08-21 08:36:24,582 INFO Original metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics_original.json - 1 daily records
+2025-08-21 08:36:24,582 INFO Processed 22 flattened records from 1 days of metrics
+2025-08-21 08:36:24,584 INFO Flattened metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics_flattened.json - 22 records
+2025-08-21 08:36:24,586 INFO Main metrics file written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics.json - 22 records
+2025-08-21 08:36:24,586 INFO Uploading flattened metrics to Domo...
+2025-08-21 08:36:24,586 INFO Starting upload_to_domo, append=True
+2025-08-21 08:36:24,587 INFO Requesting Domo token.
+2025-08-21 08:36:25,014 DEBUG DataFrame shape: (22, 20)
+2025-08-21 08:36:25,017 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-08-21 08:36:25,017 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-08-21 08:36:25,018 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-08-20,61,50,37,37,0,0,vscode,default,False,typescript,1686,897,2481,366,0,0,0,0,
+2025-08-20,61,50,37,37,0,0,vscode,default,False,sql,10,0,12,0,0,0,0,0,
+2025-08-20,61,50,37,37,0,0,vscode,default,False,plaintext,33,0,61,0,0
+2025-08-21 08:36:28,869 INFO Domo upload response status: 204
+2025-08-21 08:36:28,869 INFO Data upload to Domo successful.
+2025-08-21 08:36:28,870 INFO Metrics uploaded to Domo successfully.
+2025-08-21 08:36:28,873 INFO Last run date updated to 2025-08-20.
+2025-08-22 04:11:52,255 INFO Attempting to fetch Copilot metrics from 2025-08-21 to 2025-08-21...
+2025-08-22 04:11:52,258 INFO Fetching data from 2025-08-21 to 2025-08-21...
+2025-08-22 04:11:53,128 INFO Retrieved 1 raw metrics from API
+2025-08-22 04:11:53,133 INFO Original metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics_original.json - 1 daily records
+2025-08-22 04:11:53,133 INFO Processed 18 flattened records from 1 days of metrics
+2025-08-22 04:11:53,135 INFO Flattened metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics_flattened.json - 18 records
+2025-08-22 04:11:53,137 INFO Main metrics file written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics.json - 18 records
+2025-08-22 04:11:53,138 INFO Uploading flattened metrics to Domo...
+2025-08-22 04:11:53,138 INFO Starting upload_to_domo, append=True
+2025-08-22 04:11:53,139 INFO Requesting Domo token.
+2025-08-22 04:11:53,506 DEBUG DataFrame shape: (18, 20)
+2025-08-22 04:11:53,508 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-08-22 04:11:53,508 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-08-22 04:11:53,509 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-08-21,64,49,29,35,0,0,vscode,default,False,typescript,897,320,1326,86,0,0,0,0,
+2025-08-21,64,49,29,35,0,0,vscode,default,False,git-commit,12,2,12,0,0,0,0,0,
+2025-08-21,64,49,29,35,0,0,vscode,default,False,scss,82,24,154,2
+2025-08-22 04:11:55,459 INFO Domo upload response status: 204
+2025-08-22 04:11:55,459 INFO Data upload to Domo successful.
+2025-08-22 04:11:55,459 INFO Metrics uploaded to Domo successfully.
+2025-08-22 04:11:55,460 INFO Last run date updated to 2025-08-21.
+2025-08-25 18:30:14,196 INFO Attempting to fetch Copilot metrics from 2025-08-22 to 2025-08-24...
+2025-08-25 18:30:14,198 INFO Fetching data from 2025-08-22 to 2025-08-24...
+2025-08-25 18:30:14,662 INFO Retrieved 3 raw metrics from API
+2025-08-25 18:30:14,663 INFO Original metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics_original.json - 3 daily records
+2025-08-25 18:30:14,663 INFO Processed 26 flattened records from 3 days of metrics
+2025-08-25 18:30:14,664 INFO Flattened metrics written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics_flattened.json - 26 records
+2025-08-25 18:30:14,665 INFO Main metrics file written to /Users/brad.wisdom/Library/CloudStorage/OneDrive-Apiture,Inc/MyDevProjects/GitHubCopilotMetricsProd-clean/./scripts/../output/metrics.json - 26 records
+2025-08-25 18:30:14,665 INFO Uploading flattened metrics to Domo...
+2025-08-25 18:30:14,665 INFO Starting upload_to_domo, append=True
+2025-08-25 18:30:14,666 INFO Requesting Domo token.
+2025-08-25 18:30:15,079 DEBUG DataFrame shape: (26, 20)
+2025-08-25 18:30:15,082 INFO Appending data to Domo dataset 49d76ba1-c785-4f73-a459-26e73ea47cf3.
+2025-08-25 18:30:15,082 DEBUG PUT URL: https://api.domo.com/v1/datasets/49d76ba1-c785-4f73-a459-26e73ea47cf3/data?updateMethod=APPEND
+2025-08-25 18:30:15,082 DEBUG CSV Data Preview: date,total_active_users,total_engaged_users,ide_completions_users,ide_chat_users,dotcom_chat_users,pr_users,editor,model,is_custom_model,language,code_suggestions,code_acceptances,lines_suggested,lines_accepted,chat_count,chat_insertions,chat_copies,pr_summaries,repository
+2025-08-22,66,53,35,46,0,0,vscode,default,False,typescript,1248,731,1894,233,0,0,0,0,
+2025-08-22,66,53,35,46,0,0,vscode,default,False,yaml,19,0,27,0,0,0,0,0,
+2025-08-22,66,53,35,46,0,0,vscode,default,False,json,18,5,92,0,0,0,0
+2025-08-25 18:30:17,232 INFO Domo upload response status: 204
+2025-08-25 18:30:17,232 INFO Data upload to Domo successful.
+2025-08-25 18:30:17,233 INFO Metrics uploaded to Domo successfully.
+2025-08-25 18:30:17,234 INFO Last run date updated to 2025-08-24.
+2025-08-25 22:55:51,016 INFO Already up-to-date with Copilot metrics. Last run was today or yesterday.
