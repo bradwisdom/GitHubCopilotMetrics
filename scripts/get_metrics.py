@@ -85,7 +85,12 @@ try:
     import logging
     import argparse
     import urllib3
-    from urllib3.exceptions import NotOpenSSLWarning, InsecureRequestWarning
+    from urllib3.exceptions import InsecureRequestWarning
+    # Try to import NotOpenSSLWarning, but handle if it doesn't exist in newer urllib3 versions
+    try:
+        from urllib3.exceptions import NotOpenSSLWarning
+    except ImportError:
+        NotOpenSSLWarning = None
 except ImportError as e:
     print(f"Error importing required modules: {e}")
     print("Please install required packages:")
@@ -95,10 +100,11 @@ except ImportError as e:
 # Additional urllib3 warning suppression after import
 urllib3.disable_warnings()
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-try:
-    urllib3.disable_warnings(urllib3.exceptions.NotOpenSSLWarning)
-except:
-    pass
+if NotOpenSSLWarning:
+    try:
+        urllib3.disable_warnings(NotOpenSSLWarning)
+    except:
+        pass
 
 # Setup logging
 LOGS_DIR = os.path.join(os.path.dirname(__file__), '../logs')

@@ -1,6 +1,6 @@
 [
   {
-    "date": "2025-08-22",
+    "date": "2025-08-31",
     "copilot_ide_chat": {
       "editors": [
         {
@@ -8,277 +8,23 @@
           "models": [
             {
               "name": "default",
-              "total_chats": 1227,
+              "total_chats": 67,
               "is_custom_model": false,
-              "total_engaged_users": 46,
-              "total_chat_copy_events": 40,
-              "total_chat_insertion_events": 8
-            }
-          ],
-          "total_engaged_users": 46
-        }
-      ],
-      "total_engaged_users": 46
-    },
-    "total_active_users": 66,
-    "copilot_dotcom_chat": {
-      "total_engaged_users": 0
-    },
-    "total_engaged_users": 53,
-    "copilot_dotcom_pull_requests": {
-      "total_engaged_users": 0
-    },
-    "copilot_ide_code_completions": {
-      "editors": [
-        {
-          "name": "vscode",
-          "models": [
-            {
-              "name": "default",
-              "languages": [
-                {
-                  "name": "typescript",
-                  "total_engaged_users": 19,
-                  "total_code_acceptances": 731,
-                  "total_code_suggestions": 1248,
-                  "total_code_lines_accepted": 233,
-                  "total_code_lines_suggested": 1894
-                },
-                {
-                  "name": "yaml",
-                  "total_engaged_users": 0,
-                  "total_code_acceptances": 0,
-                  "total_code_suggestions": 19,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 27
-                },
-                {
-                  "name": "json",
-                  "total_engaged_users": 2,
-                  "total_code_acceptances": 5,
-                  "total_code_suggestions": 18,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 92
-                },
-                {
-                  "name": "html",
-                  "total_engaged_users": 4,
-                  "total_code_acceptances": 8,
-                  "total_code_suggestions": 57,
-                  "total_code_lines_accepted": 1,
-                  "total_code_lines_suggested": 65
-                },
-                {
-                  "name": "sql",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 80,
-                  "total_code_suggestions": 101,
-                  "total_code_lines_accepted": 30,
-                  "total_code_lines_suggested": 125
-                },
-                {
-                  "name": "perl",
-                  "total_engaged_users": 6,
-                  "total_code_acceptances": 25,
-                  "total_code_suggestions": 132,
-                  "total_code_lines_accepted": 5,
-                  "total_code_lines_suggested": 158
-                },
-                {
-                  "name": "vue",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 3,
-                  "total_code_suggestions": 11,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 19
-                },
-                {
-                  "name": "scss",
-                  "total_engaged_users": 4,
-                  "total_code_acceptances": 6,
-                  "total_code_suggestions": 31,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 58
-                },
-                {
-                  "name": "markdown",
-                  "total_engaged_users": 2,
-                  "total_code_acceptances": 5,
-                  "total_code_suggestions": 31,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 42
-                },
-                {
-                  "name": "javascript",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 6,
-                  "total_code_suggestions": 15,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 18
-                },
-                {
-                  "name": "groovy",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 12,
-                  "total_code_suggestions": 14,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 24
-                },
-                {
-                  "name": "typescriptreact",
-                  "total_engaged_users": 3,
-                  "total_code_acceptances": 6,
-                  "total_code_suggestions": 12,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 12
-                },
-                {
-                  "name": "unknown",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 1,
-                  "total_code_suggestions": 6,
-                  "total_code_lines_accepted": 4,
-                  "total_code_lines_suggested": 9
-                },
-                {
-                  "name": "java",
-                  "total_engaged_users": 0,
-                  "total_code_acceptances": 0,
-                  "total_code_suggestions": 4,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 5
-                },
-                {
-                  "name": "git-commit",
-                  "total_engaged_users": 0,
-                  "total_code_acceptances": 0,
-                  "total_code_suggestions": 3,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 3
-                },
-                {
-                  "name": "http",
-                  "total_engaged_users": 0,
-                  "total_code_acceptances": 0,
-                  "total_code_suggestions": 1,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 1
-                },
-                {
-                  "name": "shellscript",
-                  "total_engaged_users": 0,
-                  "total_code_acceptances": 0,
-                  "total_code_suggestions": 1,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 1
-                }
-              ],
-              "is_custom_model": false,
-              "total_engaged_users": 35
-            }
-          ],
-          "total_engaged_users": 35
-        }
-      ],
-      "languages": [
-        {
-          "name": "typescript",
-          "total_engaged_users": 19
-        },
-        {
-          "name": "perl",
-          "total_engaged_users": 6
-        },
-        {
-          "name": "html",
-          "total_engaged_users": 4
-        },
-        {
-          "name": "vue",
-          "total_engaged_users": 1
-        },
-        {
-          "name": "markdown",
-          "total_engaged_users": 2
-        },
-        {
-          "name": "typescriptreact",
-          "total_engaged_users": 3
-        },
-        {
-          "name": "sql",
-          "total_engaged_users": 1
-        },
-        {
-          "name": "javascript",
-          "total_engaged_users": 1
-        },
-        {
-          "name": "json",
-          "total_engaged_users": 2
-        },
-        {
-          "name": "scss",
-          "total_engaged_users": 4
-        },
-        {
-          "name": "yaml",
-          "total_engaged_users": 0
-        },
-        {
-          "name": "groovy",
-          "total_engaged_users": 1
-        },
-        {
-          "name": "unknown",
-          "total_engaged_users": 1
-        },
-        {
-          "name": "shellscript",
-          "total_engaged_users": 0
-        },
-        {
-          "name": "http",
-          "total_engaged_users": 0
-        },
-        {
-          "name": "git-commit",
-          "total_engaged_users": 0
-        },
-        {
-          "name": "java",
-          "total_engaged_users": 0
-        }
-      ],
-      "total_engaged_users": 35
-    }
-  },
-  {
-    "date": "2025-08-23",
-    "copilot_ide_chat": {
-      "editors": [
-        {
-          "name": "vscode",
-          "models": [
-            {
-              "name": "default",
-              "total_chats": 9,
-              "is_custom_model": false,
-              "total_engaged_users": 3,
+              "total_engaged_users": 1,
               "total_chat_copy_events": 0,
               "total_chat_insertion_events": 0
             }
           ],
-          "total_engaged_users": 3
+          "total_engaged_users": 1
         }
       ],
-      "total_engaged_users": 3
+      "total_engaged_users": 1
     },
-    "total_active_users": 7,
+    "total_active_users": 1,
     "copilot_dotcom_chat": {
       "total_engaged_users": 0
     },
-    "total_engaged_users": 4,
+    "total_engaged_users": 1,
     "copilot_dotcom_pull_requests": {
       "total_engaged_users": 0
     },
@@ -291,20 +37,28 @@
               "name": "default",
               "languages": [
                 {
-                  "name": "typescript",
+                  "name": "jsonc",
                   "total_engaged_users": 1,
-                  "total_code_acceptances": 3,
-                  "total_code_suggestions": 9,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 9
+                  "total_code_acceptances": 10,
+                  "total_code_suggestions": 61,
+                  "total_code_lines_accepted": 4,
+                  "total_code_lines_suggested": 76
                 },
                 {
-                  "name": "html",
+                  "name": "markdown",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 17,
+                  "total_code_suggestions": 110,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 196
+                },
+                {
+                  "name": "ini",
                   "total_engaged_users": 0,
                   "total_code_acceptances": 0,
-                  "total_code_suggestions": 1,
+                  "total_code_suggestions": 2,
                   "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 1
+                  "total_code_lines_suggested": 2
                 }
               ],
               "is_custom_model": false,
@@ -316,11 +70,15 @@
       ],
       "languages": [
         {
-          "name": "typescript",
+          "name": "markdown",
           "total_engaged_users": 1
         },
         {
-          "name": "html",
+          "name": "jsonc",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "ini",
           "total_engaged_users": 0
         }
       ],
@@ -328,7 +86,7 @@
     }
   },
   {
-    "date": "2025-08-24",
+    "date": "2025-09-01",
     "copilot_ide_chat": {
       "editors": [
         {
@@ -336,23 +94,23 @@
           "models": [
             {
               "name": "default",
-              "total_chats": 92,
+              "total_chats": 89,
               "is_custom_model": false,
-              "total_engaged_users": 2,
+              "total_engaged_users": 8,
               "total_chat_copy_events": 2,
               "total_chat_insertion_events": 0
             }
           ],
-          "total_engaged_users": 2
+          "total_engaged_users": 8
         }
       ],
-      "total_engaged_users": 2
+      "total_engaged_users": 8
     },
-    "total_active_users": 4,
+    "total_active_users": 13,
     "copilot_dotcom_chat": {
       "total_engaged_users": 0
     },
-    "total_engaged_users": 3,
+    "total_engaged_users": 12,
     "copilot_dotcom_pull_requests": {
       "total_engaged_users": 0
     },
@@ -365,64 +123,112 @@
               "name": "default",
               "languages": [
                 {
-                  "name": "typescript",
-                  "total_engaged_users": 2,
-                  "total_code_acceptances": 15,
-                  "total_code_suggestions": 42,
+                  "name": "html",
+                  "total_engaged_users": 3,
+                  "total_code_acceptances": 31,
+                  "total_code_suggestions": 61,
                   "total_code_lines_accepted": 3,
-                  "total_code_lines_suggested": 54
-                },
-                {
-                  "name": "typescriptreact",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 57,
-                  "total_code_suggestions": 131,
-                  "total_code_lines_accepted": 14,
-                  "total_code_lines_suggested": 183
-                },
-                {
-                  "name": "json",
-                  "total_engaged_users": 1,
-                  "total_code_acceptances": 8,
-                  "total_code_suggestions": 24,
-                  "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 24
+                  "total_code_lines_suggested": 69
                 },
                 {
                   "name": "perl",
                   "total_engaged_users": 1,
+                  "total_code_acceptances": 9,
+                  "total_code_suggestions": 48,
+                  "total_code_lines_accepted": 9,
+                  "total_code_lines_suggested": 57
+                },
+                {
+                  "name": "css",
+                  "total_engaged_users": 1,
                   "total_code_acceptances": 1,
-                  "total_code_suggestions": 8,
+                  "total_code_suggestions": 6,
                   "total_code_lines_accepted": 0,
-                  "total_code_lines_suggested": 8
+                  "total_code_lines_suggested": 6
+                },
+                {
+                  "name": "typescript",
+                  "total_engaged_users": 3,
+                  "total_code_acceptances": 7,
+                  "total_code_suggestions": 16,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 16
+                },
+                {
+                  "name": "json",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 14,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 14
+                },
+                {
+                  "name": "javascript",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
+                },
+                {
+                  "name": "dotenv",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
+                },
+                {
+                  "name": "unknown",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 2,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 2
                 }
               ],
               "is_custom_model": false,
-              "total_engaged_users": 3
+              "total_engaged_users": 8
             }
           ],
-          "total_engaged_users": 3
+          "total_engaged_users": 8
         }
       ],
       "languages": [
         {
-          "name": "typescriptreact",
+          "name": "perl",
           "total_engaged_users": 1
         },
         {
+          "name": "html",
+          "total_engaged_users": 3
+        },
+        {
+          "name": "javascript",
+          "total_engaged_users": 0
+        },
+        {
           "name": "typescript",
-          "total_engaged_users": 2
+          "total_engaged_users": 3
         },
         {
           "name": "json",
           "total_engaged_users": 1
         },
         {
-          "name": "perl",
+          "name": "css",
           "total_engaged_users": 1
+        },
+        {
+          "name": "dotenv",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "unknown",
+          "total_engaged_users": 0
         }
       ],
-      "total_engaged_users": 3
+      "total_engaged_users": 8
     }
   }
 ]
